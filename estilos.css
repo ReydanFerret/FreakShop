@@ -1,0 +1,16 @@
+/* === RESET — va siempre primero === */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* === TIPOGRAFÍA BASE === */
+body {
+    font-family: "Playwrite NO", cursive;
+    background-color: #C9F299;
+    color: #4F345A;
+}
+
+h1, h2, h3 {
+    font-family: 'Playwrite', Sekuya; /* reemplazar con la fuente de títulos */
+}
