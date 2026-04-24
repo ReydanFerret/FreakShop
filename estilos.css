@@ -11,6 +11,38 @@ body {
     color: #4F345A;
 }
 
-h1, h2, h3 {
+h1, h2, h3 , h4 {
     font-family: 'Playwrite', Sekuya; /* reemplazar con la fuente de títulos */
+}
+
+#encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #5ad673;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+}
+
+#navegacion {
+    display: flex;
+    flex: 1;
+    margin-right: 40px;
+    background-color: #39aa4f;
+    justify-content: space-evenly;
+}
+
+#productos {
+    display: flex;
+    gap: 15px;
+}
+
+#productos div {
+    background-color: limegreen;
+    padding: 20px;
+    margin: 15px;
 }
