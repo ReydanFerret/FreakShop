@@ -14,3 +14,14 @@ body {
 h1, h2, h3 {
     font-family: 'Playwrite', Sekuya; /* reemplazar con la fuente de títulos */
 }
+
+#contacto {
+    background-color: #42ad57;
+    margin: 15px;
+    padding: 15px;
+}
+#footer {
+    background-color: #42ad57;
+    margin: 15px;
+    padding: 15px;
+}
