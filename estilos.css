@@ -14,3 +14,13 @@ body {
 h1, h2, h3 {
     font-family: 'Playwrite', Sekuya; /* reemplazar con la fuente de títulos */
 }
+#inicio {
+    background-color: #42ad57;
+    margin: 15px;
+    padding: 15px;
+}
+#sobre_nosotros {
+    background-color: #42ad57;
+    margin: 15px;
+    padding: 15px;
+}
