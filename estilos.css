@@ -1,3 +1,8 @@
+:root {
+--colorSecciones: #42ad57;
+--padding15px: 15px;
+}
+
 /* === RESET — va siempre primero === */
 * {
 margin: 0;
@@ -19,7 +24,7 @@ h1, h2, h3 , h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    var(--padding15px);
     margin: 15px;
     background-color: #5ad673;
 }
@@ -38,14 +43,14 @@ h1, h2, h3 , h4 {
 }
 
 #inicio {
-    background-color: #42ad57;
+    background-color: var(--colorSecciones);
     margin: 15px;
-    padding: 15px;
+    padding: var(--padding15px);
 }
 #sobre_nosotros {
-    background-color: #42ad57;
+    background-color: var(--colorSecciones);
     margin: 15px;
-    padding: 15px;
+    padding: var(--padding15px);
 }
 
 #productos {
@@ -54,19 +59,18 @@ h1, h2, h3 , h4 {
 }
 
 #productos div {
-    background-color: limegreen;
-    padding: 20px;
+    background-color: var(--colorSecciones);
+    padding: var(--padding15px);
     margin: 15px;
-    gap: 15px;
 }
 
 #contacto {
-    background-color: #42ad57;
+    background-color: var(--colorSecciones);
     margin: 15px;
-    padding: 15px;
+    padding: var(--padding15px);
 }
 #footer {
-    background-color: #42ad57;
+    background-color: var(--colorSecciones);
     margin: 15px;
-    padding: 15px;
+    padding: var(--padding15px);
 }
