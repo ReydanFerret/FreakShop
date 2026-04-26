@@ -1,5 +1,7 @@
 :root {
 --colorSecciones: #42ad57;
+--colorFondo: #C9F299;
+--colorTexto: #4F345A;
 --padding15px: 15px;
 }
 
@@ -12,8 +14,8 @@ box-sizing: border-box;
 /* === TIPOGRAFÍA BASE === */
 body {
     font-family: "Playwrite NO", cursive;
-    background-color: #C9F299;
-    color: #4F345A;
+    background-color: var(--colorFondo);
+    color: var(--colorTexto);
 }
 
 h1, h2, h3 , h4 {
