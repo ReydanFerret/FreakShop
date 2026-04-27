@@ -66,6 +66,45 @@ h1, h2, h3 , h4 {
     margin: 15px;
 }
 
+form {
+    background: var(--colorSecciones);
+    padding: var(--padding15px);
+    margin: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #146817;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 #contacto {
     background-color: var(--colorSecciones);
     margin: 15px;
