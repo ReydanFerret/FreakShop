@@ -28,16 +28,13 @@ h1, h2, h3 , h4 {
     align-items: center;
     padding: var(--padding15px);
     margin: 15px;
+    padding: 16px 32px;
     background-color: #5ad673;
-}
-
-#logo {
-    display: flex;
-    flex-direction: column;
 }
 
 #navegacion {
     display: flex;
+    gap: 24px;
     flex: 1;
     margin-right: 40px;
     background-color: #39aa4f;
@@ -57,12 +54,15 @@ h1, h2, h3 , h4 {
 
 #productos {
     display: flex;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 #productos div {
+    flex: 1 1 280px;
     background-color: var(--colorSecciones);
-    padding: var(--padding15px);
+    padding: 24px;
+    border-radius: 8px;
     margin: 15px;
 }
 
