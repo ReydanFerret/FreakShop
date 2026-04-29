@@ -42,11 +42,25 @@ h1, h2, h3 , h4 {
 }
 
 #inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    text-align: center;
+
     background-color: var(--colorSecciones);
     margin: 15px;
     padding: var(--padding15px);
 }
 #sobre_nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    text-align: center;
+
     background-color: var(--colorSecciones);
     margin: 15px;
     padding: var(--padding15px);
