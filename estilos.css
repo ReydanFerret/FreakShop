@@ -13,6 +13,15 @@ box-sizing: border-box;
 }
 /* === TIPOGRAFÍA BASE === */
 body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    min-height: 100vh;
+
+    grid-template-rows: auto 1fr auto;
     font-family: "Playwrite NO", cursive;
     background-color: var(--colorFondo);
     color: var(--colorTexto);
@@ -29,7 +38,7 @@ h1, h2, h3 , h4 {
     padding: var(--padding15px);
     margin: 15px;
     padding: 16px 32px;
-    background-color: #5ad673;
+    background-color: #5ad673
 }
 
 #navegacion {
@@ -67,17 +76,32 @@ h1, h2, h3 , h4 {
 }
 
 #productos {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 #productos div {
+    grid-column: span 1;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    justify-content: space-between;
     flex: 1 1 280px;
     background-color: var(--colorSecciones);
-    padding: 24px;
+    padding: 20px;
     border-radius: 8px;
     margin: 15px;
+}
+
+#productos div h3{
+    font-size: 30px;
+}
+
+#productos div p{
+    flex: 1;
+    font-size: 20px;
 }
 
 form {
